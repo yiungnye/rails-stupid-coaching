@@ -1,0 +1,15 @@
+<div class="container-xl">
+  <h1>Stupid Coaching</h1>
+  <div class="bg-light  p-3">
+    <p><%= @answer %></p>
+    <p><em>-- You</em></p>
+  </div>
+
+  <div class="bg-warning --bs-bg-opacity: 0.1 p-3">
+    <p><strong><%= @coach %></strong></p>
+    <p><em>-- Your coach</em></p>
+  </div>
+  <div class="mt-4">
+    <%= link_to "Ask a new Question", ask_path %>
+  </div>
+</div>
